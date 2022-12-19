@@ -180,6 +180,10 @@ p{
     margin: 20px 0;
 }
 
+.box1 p{
+    text-align: justify ;
+}
+
 .about  .box1 .year{
     min-width: 150px;
     margin-bottom: 10px;
@@ -192,12 +196,15 @@ p{
 
 .about  .box1 .year h5:nth-child(1){
     color: #3590d2;
+    margin-bottom: 15px;
+    
 }
 
 .about > .box1 .text h4{
+   
     color: #3590d2;
     font-size: 16px;
-    margin: 0;
+    margin-bottom: 5px;
 }
 .skills .box1{
     position: relative;
