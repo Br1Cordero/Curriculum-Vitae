@@ -62,8 +62,9 @@ figure >  img {
 
 .perfil_text{
     display: flex;
-    padding: 40px;
+    padding: 30px;
     align-items: center;
+    flex-direction: column;
 }
 
 .perfil_text   h3{
@@ -75,7 +76,7 @@ figure >  img {
 }
 
 .perfil_text   h3 span{
-    position: relative;;
+    position: relative;
     font-size: 0.5em;
     font-weight: 300;
     top: -10px;
@@ -238,8 +239,10 @@ footer{
     padding: 40px;
 }
 footer > h3{
-    border-left:  4px solid #ff8bb3 !important;
+    border-left:  4px solid #ff8bb3 ;
     padding-left: 10px;
+    border-right:  4px solid #ff8bb3 ;
+    padding-right: 10px;
     line-height: 1em; 
     font-weight: 600;
     color: #333;
